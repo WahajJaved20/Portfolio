@@ -16,6 +16,7 @@ const Hero = () => {
           specializing in CyberSecurity, Artificial <br/> Intelligence, and Software Development. <br/></p>
         </div>
       </div>
+      <ComputersCanvas />
     </section>
   )
 }
