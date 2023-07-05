@@ -24,7 +24,7 @@
 //     tripguide,
 //     threejs,
 //   } from "../assets";
-  
+  import {reactjs, backend, solidity, cyber} from "../assets";
   export const navLinks = [
     {
       id: "about",
@@ -40,24 +40,24 @@
     },
   ];
   
-  // const services = [
-  //   {
-  //     title: "Web Developer",
-  //     icon: web,
-  //   },
-  //   {
-  //     title: "React Native Developer",
-  //     icon: mobile,
-  //   },
-  //   {
-  //     title: "Backend Developer",
-  //     icon: backend,
-  //   },
-  //   {
-  //     title: "Content Creator",
-  //     icon: creator,
-  //   },
-  // ];
+  const services = [
+    {
+      title: "React JS Developer",
+      icon: reactjs,
+    },
+    {
+      title: "Backend Developer",
+      icon: backend
+    },
+    {
+      title: "Smart Contract Engineer",
+      icon: solidity 
+    },
+    {
+      title: "Cyber Security Engineer",
+      icon: cyber
+    }
+  ]
   
   // const technologies = [
   //   {
@@ -263,3 +263,4 @@
   // ];
   
   // export { services, technologies, experiences, testimonials, projects };
+  export {services};
