@@ -2,6 +2,9 @@ import logo from "./logo.svg";
 import backend from "./backend.png";
 import solidity from "./solidity.png";
 import cyber from "./cyber.png";
+import securiti from "./securiti.png";
+import fast from "./fast.png";
+import erly from "./erly.png";
 // import creator from "./creator.png";
 // import mobile from "./mobile.png";
 // import web from "./web.png";
@@ -35,7 +38,10 @@ export {
     reactjs,
     backend,
     solidity,
-    cyber
+    cyber,
+    securiti,
+    fast,
+    erly
 }
 // export {
 //   logo,

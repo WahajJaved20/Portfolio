@@ -1,30 +1,4 @@
-// import {
-//     mobile,
-//     backend,
-//     creator,
-//     web,
-//     javascript,
-//     typescript,
-//     html,
-//     css,
-//     reactjs,
-//     redux,
-//     tailwind,
-//     nodejs,
-//     mongodb,
-//     git,
-//     figma,
-//     docker,
-//     meta,
-//     starbucks,
-//     tesla,
-//     shopify,
-//     carrent,
-//     jobit,
-//     tripguide,
-//     threejs,
-//   } from "../assets";
-  import {reactjs, backend, solidity, cyber} from "../assets";
+  import {reactjs, backend, solidity, cyber,securiti, fast, erly} from "../assets";
   export const navLinks = [
     {
       id: "about",
@@ -114,60 +88,80 @@
   //   },
   // ];
   
-  // const experiences = [
-  //   {
-  //     title: "React.js Developer",
-  //     company_name: "Starbucks",
-  //     icon: starbucks,
-  //     iconBg: "#383E56",
-  //     date: "March 2020 - April 2021",
-  //     points: [
-  //       "Developing and maintaining web applications using React.js and other related technologies.",
-  //       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //       "Implementing responsive design and ensuring cross-browser compatibility.",
-  //       "Participating in code reviews and providing constructive feedback to other developers.",
-  //     ],
-  //   },
-  //   {
-  //     title: "React Native Developer",
-  //     company_name: "Tesla",
-  //     icon: tesla,
-  //     iconBg: "#E6DEDD",
-  //     date: "Jan 2021 - Feb 2022",
-  //     points: [
-  //       "Developing and maintaining web applications using React.js and other related technologies.",
-  //       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //       "Implementing responsive design and ensuring cross-browser compatibility.",
-  //       "Participating in code reviews and providing constructive feedback to other developers.",
-  //     ],
-  //   },
-  //   {
-  //     title: "Web Developer",
-  //     company_name: "Shopify",
-  //     icon: shopify,
-  //     iconBg: "#383E56",
-  //     date: "Jan 2022 - Jan 2023",
-  //     points: [
-  //       "Developing and maintaining web applications using React.js and other related technologies.",
-  //       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //       "Implementing responsive design and ensuring cross-browser compatibility.",
-  //       "Participating in code reviews and providing constructive feedback to other developers.",
-  //     ],
-  //   },
-  //   {
-  //     title: "Full stack Developer",
-  //     company_name: "Meta",
-  //     icon: meta,
-  //     iconBg: "#E6DEDD",
-  //     date: "Jan 2023 - Present",
-  //     points: [
-  //       "Developing and maintaining web applications using React.js and other related technologies.",
-  //       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //       "Implementing responsive design and ensuring cross-browser compatibility.",
-  //       "Participating in code reviews and providing constructive feedback to other developers.",
-  //     ],
-  //   },
-  // ];
+  const experiences = [
+    {
+      title: "Backend Developer - Connectors",
+      company_name: "Securiti",
+      icon: securiti,
+      iconBg: "#383E56",
+      date: "June 2023 - August 2023",
+      points: [
+       "Automation of tasks using Python and Shell Scripting",
+       "Worked with ELK stack to monitor and analyze logs",
+      ],
+    },
+    {
+      title: "Student Laboratory Assistant",
+      company_name: "FAST NUCES",
+      icon: fast,
+      iconBg: "#383E56",
+      date: "Feb 2023 - May 2023",
+      points: [
+       "SLA for the course of Data Structures in C++",
+       "Helped students with their labs and projects",
+       "Resolved their doubts and queries",
+      ],
+    },
+    {
+      title: "Junior Developer",
+      company_name: "Erly Stage Studios",
+      icon: erly,
+      iconBg: "#383E56",
+      date: "Jan 2023 - Feb 2023",
+      points: [
+       "Worked with React JS, Node JS and Material UI",
+       "Designed Responsive UI for the website",
+        "Fixed bugs in a website for the company",
+        "Deployed new features to their website",
+      ],
+    },
+    {
+      title: "Student Laboratory Assistant",
+      company_name: "FAST NUCES",
+      icon: fast,
+      iconBg: "#383E56",
+      date: "Aug 2022 - Dec 2022",
+      points: [
+       "SLA for the course of Data Structures in C++",
+       "Helped students with their labs and projects",
+       "Resolved their doubts and queries",
+      ],
+    },
+    {
+      title: "Blockchain Engineer Intern",
+      company_name: "Erly Stage Studios",
+      icon: erly,
+      iconBg: "#383E56",
+      date: "Jul 2022 - Oct 2022",
+      points: [
+       "Worked with Solidity, React JS, Node JS and Material UI",
+        "Wrote a smart contract for the company",
+        "Developed A Fullstack Application on the polygon testnet which is designed to help companies save the minutes of their meeting on and off-chain",
+        "Documented the contract in NATSPEC format which is the standard",
+      ],
+    },{
+      title: "Teaching Assistant",
+      company_name: "FAST NUCES",
+      icon: fast,
+      iconBg: "#383E56",
+      date: "Sep 2021 - Jan 2022",
+      points: [
+       "TA for the course of Programming Fundamentals in C++",
+       "Helped students with their projects",
+       "Fairly graded their assignments and quizzes",
+      ],
+    }
+  ]
   
   // const testimonials = [
   //   {
@@ -263,4 +257,4 @@
   // ];
   
   // export { services, technologies, experiences, testimonials, projects };
-  export {services};
+  export {services, experiences};

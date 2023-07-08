@@ -16,7 +16,8 @@ const Hero = () => {
           specializing in CyberSecurity, Artificial <br/> Intelligence, and Software Development. <br/></p>
         </div>
       </div>
-      <ComputersCanvas />
+        <ComputersCanvas />
+
       <div className='bottom-5 absolute w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
