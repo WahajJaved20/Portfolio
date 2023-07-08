@@ -385,4 +385,4 @@
   // ];
   
   // export { services, technologies, experiences, testimonials, projects };
-  export {services, experiences};
+  export {services, experiences, technologies};
