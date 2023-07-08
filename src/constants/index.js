@@ -1,4 +1,45 @@
-  import {reactjs, backend, solidity, cyber,securiti, fast, erly} from "../assets";
+  import {reactjs,
+    backend, 
+    solidity, 
+    cyber, 
+    securiti, 
+    fast, 
+    erly, 
+    illustrator,
+    xd,
+    androidstudio,
+    bash,
+    blender,
+    c,
+    cpp,
+    css,
+    ethereum,
+    figma,
+    firebase,
+    flutter,
+    git,
+    github,
+    html,
+    dart,
+    postgres,
+    javascript,
+    mongodb,
+    mysql,
+    nextjs,
+    nodejs,
+    npm,
+    postman,
+    python,
+    solidityB,
+    tailwind,
+    linux,
+    vscode,
+    docker,
+    elasticSearch,
+    kibana,
+    logstash
+  } from "../assets";
+
   export const navLinks = [
     {
       id: "about",
@@ -32,61 +73,148 @@
       icon: cyber
     }
   ]
-  
-  // const technologies = [
-  //   {
-  //     name: "HTML 5",
-  //     icon: html,
-  //   },
-  //   {
-  //     name: "CSS 3",
-  //     icon: css,
-  //   },
-  //   {
-  //     name: "JavaScript",
-  //     icon: javascript,
-  //   },
-  //   {
-  //     name: "TypeScript",
-  //     icon: typescript,
-  //   },
-  //   {
-  //     name: "React JS",
-  //     icon: reactjs,
-  //   },
-  //   {
-  //     name: "Redux Toolkit",
-  //     icon: redux,
-  //   },
-  //   {
-  //     name: "Tailwind CSS",
-  //     icon: tailwind,
-  //   },
-  //   {
-  //     name: "Node JS",
-  //     icon: nodejs,
-  //   },
-  //   {
-  //     name: "MongoDB",
-  //     icon: mongodb,
-  //   },
-  //   {
-  //     name: "Three JS",
-  //     icon: threejs,
-  //   },
-  //   {
-  //     name: "git",
-  //     icon: git,
-  //   },
-  //   {
-  //     name: "figma",
-  //     icon: figma,
-  //   },
-  //   {
-  //     name: "docker",
-  //     icon: docker,
-  //   },
-  // ];
+  const technologies = [
+    {
+      name: "Elastic Search",
+      icon: elasticSearch,
+    },
+    {
+      name: "Kibana",
+      icon: kibana,
+    },
+    {
+      name: "Logstash",
+      icon: logstash,
+    },
+    {
+      name: "Docker",
+      icon: docker,
+    },
+    {
+      name: "VS Code",
+      icon: vscode,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Bash Scripting",
+      icon: bash,
+    },
+    {
+      name: "C++",
+      icon: cpp,
+    },
+    {
+      name: "React JS",
+      icon: reactjs,
+    },
+    {
+      name: "HTML 5",
+      icon: html,
+    },
+    {
+      name: "CSS 3",
+      icon: css,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "Adobe Illustrator",
+      icon: illustrator,
+    },
+    {
+      name: "Adobe XD",
+      icon: xd,
+    },
+    {
+      name: "Android Studio",
+      icon: androidstudio,
+    },
+    
+    {
+      name: "Blender",
+      icon: blender,
+    },
+    {
+      name: "C",
+      icon: c,
+    },
+    
+    {
+      name: "Ethereum",
+      icon: ethereum,
+    },
+    {
+      name: "Figma",
+      icon: figma,
+    },
+    {
+      name: "Firebase",
+      icon: firebase,
+    },
+    {
+      name: "Flutter",
+      icon: flutter,
+    },
+    {
+      name: "Git",
+      icon: git,
+    },
+    {
+      name: "GitHub",
+      icon: github,
+    },
+    {
+      name: "Dart",
+      icon: dart,
+    },
+    {
+      name: "PostgreSQL",
+      icon: postgres,
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
+    {
+      name: "Next JS",
+      icon: nextjs,
+    },
+    {
+      name: "Node JS",
+      icon: nodejs,
+    },
+    {
+      name: "My SQL",
+      icon: mysql,
+    },
+    {
+      name: "NPM",
+      icon: npm,
+    },
+    {
+      name: "Postman",
+      icon: postman,
+    },
+    
+    {
+      name: "Solidity",
+      icon: solidityB,
+    },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
+      name: "Linux",
+      icon: linux,
+    },
+    
+  ]
   
   const experiences = [
     {
