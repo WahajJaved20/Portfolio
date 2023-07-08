@@ -90,10 +90,10 @@
       name: "Docker",
       icon: docker,
     },
-    {
-      name: "VS Code",
-      icon: vscode,
-    },
+    // {
+    //   name: "VS Code",
+    //   icon: vscode,
+    // },
     {
       name: "Python",
       icon: python,
@@ -110,109 +110,109 @@
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "Adobe Illustrator",
-      icon: illustrator,
-    },
-    {
-      name: "Adobe XD",
-      icon: xd,
-    },
-    {
-      name: "Android Studio",
-      icon: androidstudio,
-    },
+    // {
+    //   name: "HTML 5",
+    //   icon: html,
+    // },
+    // {
+    //   name: "CSS 3",
+    //   icon: css,
+    // },
+    // {
+    //   name: "JavaScript",
+    //   icon: javascript,
+    // },
+    // {
+    //   name: "Adobe Illustrator",
+    //   icon: illustrator,
+    // },
+    // {
+    //   name: "Adobe XD",
+    //   icon: xd,
+    // },
+    // {
+    //   name: "Android Studio",
+    //   icon: androidstudio,
+    // },
     
     {
       name: "Blender",
       icon: blender,
     },
-    {
-      name: "C",
-      icon: c,
-    },
+    // {
+    //   name: "C",
+    //   icon: c,
+    // },
     
-    {
-      name: "Ethereum",
-      icon: ethereum,
-    },
-    {
-      name: "Figma",
-      icon: figma,
-    },
-    {
-      name: "Firebase",
-      icon: firebase,
-    },
-    {
-      name: "Flutter",
-      icon: flutter,
-    },
-    {
-      name: "Git",
-      icon: git,
-    },
+    // {
+    //   name: "Ethereum",
+    //   icon: ethereum,
+    // },
+    // {
+    //   name: "Figma",
+    //   icon: figma,
+    // },
+    // {
+    //   name: "Firebase",
+    //   icon: firebase,
+    // },
+    // {
+    //   name: "Flutter",
+    //   icon: flutter,
+    // },
+    // {
+    //   name: "Git",
+    //   icon: git,
+    // },
     {
       name: "GitHub",
       icon: github,
     },
-    {
-      name: "Dart",
-      icon: dart,
-    },
+    // {
+    //   name: "Dart",
+    //   icon: dart,
+    // },
     {
       name: "PostgreSQL",
       icon: postgres,
     },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Next JS",
-      icon: nextjs,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "My SQL",
-      icon: mysql,
-    },
-    {
-      name: "NPM",
-      icon: npm,
-    },
-    {
-      name: "Postman",
-      icon: postman,
-    },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
+    // {
+    //   name: "Next JS",
+    //   icon: nextjs,
+    // },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
+    // {
+    //   name: "My SQL",
+    //   icon: mysql,
+    // },
+    // {
+    //   name: "NPM",
+    //   icon: npm,
+    // },
+    // {
+    //   name: "Postman",
+    //   icon: postman,
+    // },
     
     {
       name: "Solidity",
       icon: solidityB,
     },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Linux",
-      icon: linux,
-    },
+    // {
+    //   name: "Tailwind CSS",
+    //   icon: tailwind,
+    // },
+    // {
+    //   name: "Linux",
+    //   icon: linux,
+    // },
     
   ]
   
