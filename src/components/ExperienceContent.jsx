@@ -32,7 +32,7 @@ const ExperienceContent = () => {
     return ( <div className=" flex flex-col">
     <VerticalTimeline>
       {experiences.map((experience, index) => (
-        <ExperienceCard key={index} experience={experience}/>
+        <ExperienceCard key={`experience-${index}`} experience={experience}/>
       ))
       }
     </VerticalTimeline>

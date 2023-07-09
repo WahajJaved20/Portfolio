@@ -19,7 +19,7 @@ import figma from "./figma-icon.png";
 import firebase from "./firebase.svg";
 import flutter from "./flutter.svg";
 import git from "./git-icon.svg";
-import github from "./github-icon.png";
+import github from "./github.png";
 import html from "./html5.svg";
 import dart from "./icons8-dart.svg";
 import postgres from "./icons8-postgresql.svg";

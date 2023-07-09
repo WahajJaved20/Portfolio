@@ -302,7 +302,7 @@
   const projects = [
     {
       name: "Inventory Management System",
-      description: "A PERN-stack web application for inventory management",
+      description: "A PERN-stack web application for inventory management allowing users to efficiently manage their inventory, orders and customers",
       tags: [
               {
                 name: "react",
