@@ -2,6 +2,7 @@ import {BrowserRouter} from 'react-router-dom'
 
 import {About, Contact, Experience, ExperienceContent, Hero, Navbar, Tech,Works,StarsCanvas} from './components'
 import WorksContent from './components/WorksContent'
+import Socials from './components/socials'
 const App = () => {
  return(
   <BrowserRouter>
@@ -16,6 +17,7 @@ const App = () => {
       <Tech />
       <Works />
       <WorksContent />
+      <Socials />
       <div className='relative z-0'>
         <Contact />
         <StarsCanvas />

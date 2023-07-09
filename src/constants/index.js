@@ -46,7 +46,12 @@
     sarcasm,
     spam,
     nft,
-    elementals
+    elementals,
+    leetcode,
+    hackerrank,
+    linkedin,
+    medium,
+    github2
   } from "../assets";
 
   export const navLinks = [
@@ -175,7 +180,7 @@
     // },
     {
       name: "GitHub",
-      icon: github,
+      icon: github2,
     },
     // {
     //   name: "Dart",
@@ -453,4 +458,36 @@
       source_code_link: "https://github.com/WahajJaved20/Elementals.py"
     }
   ]
-  export {services, experiences, technologies, projects};
+  const socials = [
+    {
+      name: "LinkedIn",
+      link: "https://www.linkedin.com/in/wahaj-javed-20k02028/",
+      icon: linkedin,
+      social_name: "@Wahaj Javed"
+    },
+    {
+      name: "Github",
+      link: "https://github.com/WahajJaved20",
+      icon: github,
+      social_name: "@WahajJaved20"
+    },
+    {
+      name:"Medium",
+      link: "https://medium.com/@wahaj.javed02",
+      icon: medium,
+      social_name: "@Wahaj Javed"
+    },
+    {
+      name: "HackerRank",
+      link: "https://www.hackerrank.com/wahaj_javed",
+      icon: hackerrank,
+      social_name: "@wahaj_javed"
+    },
+    {
+      name: "LeetCode",
+      link:"https://leetcode.com/user6969WN/",
+      icon: leetcode,
+      social_name: "@Wahaj Javed"
+    }
+  ]
+  export {services, experiences, technologies, projects,socials};

@@ -40,7 +40,7 @@ import docker from "./docker-icon.svg";
 import elasticSearch from "./elastic-elasticsearch-logo.png";
 import kibana from "./elastic-kibana-logo.png";
 import logstash from "./elastic-logstash-logo.png";
-
+import github2 from "./github-icon.png";
 import ivms from "./ivms.png";
 import sarcasm from "./sarcasm_detection.png";
 import spam from "./spam.png";
@@ -50,7 +50,17 @@ import nft from "./nft.png";
 import sal from "./sal.png";
 import pwned from "./pwned.png";
 import elementals from "./elementals.png";
+
+import hackerrank from "./hackerrank.png";
+import leetcode from "./leetcode.svg";
+import linkedin from "./linkedin.png";
+import medium from "./medium.png";
 export {
+    github2,
+    hackerrank,
+    leetcode,
+    linkedin,
+    medium,
     elementals,
     pwned,
     sal,
