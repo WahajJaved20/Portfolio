@@ -40,7 +40,23 @@ import docker from "./docker-icon.svg";
 import elasticSearch from "./elastic-elasticsearch-logo.png";
 import kibana from "./elastic-kibana-logo.png";
 import logstash from "./elastic-logstash-logo.png";
+
+import ivms from "./ivms.png";
+import sarcasm from "./sarcasm_detection.png";
+import spam from "./spam.png";
+import sudoku from "./sudoku.png";
+import eda from "./EDA.png";
+import nft from "./nft.png";
+import sal from "./sal.png";
+import pwned from "./pwned.png";
+import elementals from "./elementals.png";
 export {
+    elementals,
+    pwned,
+    sal,
+    nft,
+    eda,
+    sudoku,
     logo,
     reactjs,
     backend,
@@ -64,6 +80,7 @@ export {
     git,
     github,
     html,
+    ivms,
     dart,
     postgres,
     javascript,
@@ -81,5 +98,7 @@ export {
     docker,
     elasticSearch,
     kibana,
-    logstash
+    logstash,
+    sarcasm,
+    spam
 }

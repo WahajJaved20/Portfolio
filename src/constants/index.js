@@ -4,8 +4,10 @@
     cyber, 
     securiti, 
     fast, 
+    sudoku,
     erly, 
     illustrator,
+    eda,
     xd,
     androidstudio,
     bash,
@@ -20,6 +22,7 @@
     git,
     github,
     html,
+    sal,
     dart,
     postgres,
     javascript,
@@ -28,6 +31,7 @@
     nextjs,
     nodejs,
     npm,
+    pwned,
     postman,
     python,
     solidityB,
@@ -37,7 +41,12 @@
     docker,
     elasticSearch,
     kibana,
-    logstash
+    logstash,
+    ivms,
+    sarcasm,
+    spam,
+    nft,
+    elementals
   } from "../assets";
 
   export const navLinks = [
@@ -290,99 +299,158 @@
       ],
     }
   ]
-  
-  // const testimonials = [
-  //   {
-  //     testimonial:
-  //       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-  //     name: "Sara Lee",
-  //     designation: "CFO",
-  //     company: "Acme Co",
-  //     image: "https://randomuser.me/api/portraits/women/4.jpg",
-  //   },
-  //   {
-  //     testimonial:
-  //       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-  //     name: "Chris Brown",
-  //     designation: "COO",
-  //     company: "DEF Corp",
-  //     image: "https://randomuser.me/api/portraits/men/5.jpg",
-  //   },
-  //   {
-  //     testimonial:
-  //       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-  //     name: "Lisa Wang",
-  //     designation: "CTO",
-  //     company: "456 Enterprises",
-  //     image: "https://randomuser.me/api/portraits/women/6.jpg",
-  //   },
-  // ];
-  
-  // const projects = [
-  //   {
-  //     name: "Car Rent",
-  //     description:
-  //       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-  //     tags: [
-  //       {
-  //         name: "react",
-  //         color: "blue-text-gradient",
-  //       },
-  //       {
-  //         name: "mongodb",
-  //         color: "green-text-gradient",
-  //       },
-  //       {
-  //         name: "tailwind",
-  //         color: "pink-text-gradient",
-  //       },
-  //     ],
-  //     image: carrent,
-  //     source_code_link: "https://github.com/",
-  //   },
-  //   {
-  //     name: "Job IT",
-  //     description:
-  //       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-  //     tags: [
-  //       {
-  //         name: "react",
-  //         color: "blue-text-gradient",
-  //       },
-  //       {
-  //         name: "restapi",
-  //         color: "green-text-gradient",
-  //       },
-  //       {
-  //         name: "scss",
-  //         color: "pink-text-gradient",
-  //       },
-  //     ],
-  //     image: jobit,
-  //     source_code_link: "https://github.com/",
-  //   },
-  //   {
-  //     name: "Trip Guide",
-  //     description:
-  //       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //     tags: [
-  //       {
-  //         name: "nextjs",
-  //         color: "blue-text-gradient",
-  //       },
-  //       {
-  //         name: "supabase",
-  //         color: "green-text-gradient",
-  //       },
-  //       {
-  //         name: "css",
-  //         color: "pink-text-gradient",
-  //       },
-  //     ],
-  //     image: tripguide,
-  //     source_code_link: "https://github.com/",
-  //   },
-  // ];
-  
-  // export { services, technologies, experiences, testimonials, projects };
-  export {services, experiences, technologies};
+  const projects = [
+    {
+      name: "Inventory Management System",
+      description: "A PERN-stack web application for inventory management",
+      tags: [
+              {
+                name: "react",
+                color: "blue-text-gradient",
+              },
+              {
+                name: "postgresql",
+                color: "green-text-gradient",
+              },
+              {
+                name: "Material UI",
+                color: "pink-text-gradient",
+              },
+            ],
+      image: ivms,
+      source_code_link: "https://github.com/WahajJaved20/Inventory-Management-System-PERN/tree/main"
+    },
+    {
+      name: "Sarcasm Detection - Feature Selection",
+      description: "A Machine Learning project to detect sarcasm in news headlines using feature selection techniques",
+      tags: [
+              {
+                name: "Information Retrieval",
+                color: "blue-text-gradient",
+              },
+              {
+                name: "Machine Learning",
+                color: "green-text-gradient",
+              },
+              {
+                name: "Feature Selection",
+                color: "pink-text-gradient",
+              },
+            ],
+      image: sarcasm,
+      source_code_link: "https://github.com/WahajJaved20/Sarcasm_Detection-Feature_Selection/tree/main"
+    },
+    {
+      name: "Spam Mail Classification",
+      description: "A Machine Learning project to classify spam and ham mails using KNN Classifier",
+      tags: [
+              {
+                name: "Artificial Intelligence",
+                color: "blue-text-gradient",
+              },
+              {
+                name: "Machine Learning",
+                color: "green-text-gradient",
+              }
+            ],
+      image: spam,
+      source_code_link: "https://github.com/WahajJaved20/Spam-Mail-Classification"
+    },
+    {
+      name: "Exploratory Sudoku Solver",
+      description: "A Parallel Computing project to solve sudoku using OpenMP in C++",
+      tags: [
+              {
+                name: "Parallel Computing",
+                color: "blue-text-gradient",
+              },
+              {
+                name: "OpenMP",
+                color: "green-text-gradient",
+              }
+            ],
+      image: sudoku,
+      source_code_link: "https://github.com/WahajJaved20/Exploratory-Sudoku-Solver.cpp "
+    },
+    {
+      name: "Encryption and Decryption Algorithm",
+      description: "An Encryption and Decryption Algorithm using Vigenere and RSA in C++",
+      tags: [
+              {
+                name: "Vigenere Cipher",
+                color: "blue-text-gradient",
+              },
+              {
+                name: "RSA Algorithm",
+                color: "green-text-gradient",
+              }
+            ],
+      image: eda,
+      source_code_link: "https://github.com/WahajJaved20/Encryption-Decryption-Algorithm.c"
+    },
+    {
+      name: "NFT Marketplace",
+      description: "A NFT Marketplace built on Rinkeby Network using Next JS, Solidity, Node JS",
+      tags: [
+              {
+                name: "Next JS",
+                color: "blue-text-gradient",
+              },
+              {
+                name: "Solidity",
+                color: "green-text-gradient",
+              }
+            ],
+      image: nft,
+      source_code_link: "https://github.com/WahajJaved20/Fullstack-NFT-Marketplace"
+    },
+    {
+      name: "Sorting Algorithms Library (SAL)",
+      description: "An Assembly Library for sorting algorithms",
+      tags: [
+              {
+                name: "Assembly",
+                color: "blue-text-gradient",
+              },
+              {
+                name: "Sorting Algorithms",
+                color: "green-text-gradient",
+              }
+            ],
+      image: sal,
+      source_code_link: "https://github.com/WahajJaved20/Sorting-Algorithms-Library.asm"
+    },
+    {
+      name: "Pwned Passwords Searcher",
+      description: "A Pwned Passwords Searcher built using C++ while exploiting multithreading and AVL Trees",
+      tags: [
+              {
+                name: "C++",
+                color: "blue-text-gradient",
+              },
+              {
+                name: "Multithreading",
+                color: "green-text-gradient",
+              }
+            ],
+      image: pwned,
+      source_code_link: "https://github.com/WahajJaved20/Pwned-Passwords-Searcher.cpp"
+    },
+    {
+      name: "Elementals",
+      description: "A 2D game built using Python and OOP Concepts",
+      tags: [
+              {
+                name: "Python",
+                color: "blue-text-gradient",
+              },
+              {
+                name: "OOP Concepts",
+                color: "green-text-gradient",
+              }
+            ],
+      image: elementals,
+      source_code_link: "https://github.com/WahajJaved20/Elementals.py"
+    }
+  ]
+  export {services, experiences, technologies, projects};
