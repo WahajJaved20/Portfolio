@@ -25,6 +25,7 @@
     sal,
     dart,
     postgres,
+    tafm,
     javascript,
     mongodb,
     mysql,
@@ -362,6 +363,22 @@
       source_code_link: "https://github.com/WahajJaved20/Spam-Mail-Classification"
     },
     {
+      name: "The Amazing Flex Man",
+      description: "A Chrome Extension for our university's Marks management website to print student transcripts and sum up marks",
+      tags: [ 
+        {
+          name: "Chrome Extension",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "green-text-gradient",
+        }
+      ],
+      image: tafm,
+      source_code_link: "https://github.com/WahajJaved20/The-Amazing-Flex_Man"
+    },
+    {
       name: "Exploratory Sudoku Solver",
       description: "A Parallel Computing project to solve sudoku using OpenMP in C++",
       tags: [
@@ -376,38 +393,6 @@
             ],
       image: sudoku,
       source_code_link: "https://github.com/WahajJaved20/Exploratory-Sudoku-Solver.cpp "
-    },
-    {
-      name: "Encryption and Decryption Algorithm",
-      description: "An Encryption and Decryption Algorithm using Vigenere and RSA in C++",
-      tags: [
-              {
-                name: "Vigenere Cipher",
-                color: "blue-text-gradient",
-              },
-              {
-                name: "RSA Algorithm",
-                color: "green-text-gradient",
-              }
-            ],
-      image: eda,
-      source_code_link: "https://github.com/WahajJaved20/Encryption-Decryption-Algorithm.c"
-    },
-    {
-      name: "NFT Marketplace",
-      description: "A NFT Marketplace built on Rinkeby Network using Next JS, Solidity, Node JS",
-      tags: [
-              {
-                name: "Next JS",
-                color: "blue-text-gradient",
-              },
-              {
-                name: "Solidity",
-                color: "green-text-gradient",
-              }
-            ],
-      image: nft,
-      source_code_link: "https://github.com/WahajJaved20/Fullstack-NFT-Marketplace"
     },
     {
       name: "Sorting Algorithms Library (SAL)",
@@ -440,6 +425,38 @@
             ],
       image: pwned,
       source_code_link: "https://github.com/WahajJaved20/Pwned-Passwords-Searcher.cpp"
+    },
+    {
+      name: "Encryption and Decryption Algorithm",
+      description: "An Encryption and Decryption Algorithm using Vigenere and RSA in C++",
+      tags: [
+              {
+                name: "Vigenere Cipher",
+                color: "blue-text-gradient",
+              },
+              {
+                name: "RSA Algorithm",
+                color: "green-text-gradient",
+              }
+            ],
+      image: eda,
+      source_code_link: "https://github.com/WahajJaved20/Encryption-Decryption-Algorithm.c"
+    },
+    {
+      name: "NFT Marketplace",
+      description: "A NFT Marketplace built on Rinkeby Network using Next JS, Solidity, Node JS",
+      tags: [
+              {
+                name: "Next JS",
+                color: "blue-text-gradient",
+              },
+              {
+                name: "Solidity",
+                color: "green-text-gradient",
+              }
+            ],
+      image: nft,
+      source_code_link: "https://github.com/WahajJaved20/Fullstack-NFT-Marketplace"
     },
     {
       name: "Elementals",

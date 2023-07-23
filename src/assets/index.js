@@ -57,7 +57,9 @@ import hackerrank from "./hackerrank.png";
 import leetcode from "./leetcode.svg";
 import linkedin from "./linkedin.png";
 import medium from "./medium.png";
+import tafm from "./TAFM.png"
 export {
+    tafm,
     github2,
     hackerrank,
     leetcode,
