@@ -4,13 +4,18 @@ import {About, Contact, Experience, ExperienceContent, Hero, Navbar, Tech,Works,
 import WorksContent from './components/WorksContent'
 import Socials from './components/socials'
 import AboutContent from './components/AboutContent'
+import HeaderText from './components/HeaderText'
+import { slideIn } from './utils/motion'
+import {motion} from 'framer-motion'
 const App = () => {
  return(
   <BrowserRouter>
     <div className='relative z-0 bg-primary'>
       <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
         <Navbar/>
-        <Hero />
+          <Hero />
+
+       
       </div>
       <About />
       <AboutContent />

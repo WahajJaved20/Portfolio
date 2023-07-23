@@ -18,7 +18,7 @@ const Computers = ({ isMobile }) => {
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
+    const mediaQuery = window.matchMedia("(max-width: 400px)");
     setIsMobile(mediaQuery.matches);
     const handleMediaQueryChange = (event) => {
       setIsMobile(event.matches);
@@ -36,7 +36,7 @@ const ComputersCanvas = () => {
       gl={{preserveDrawingBuffer: true}}
     >
     <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls enableZoom={false} enableRotate={isMobile ? false : true}
+        <OrbitControls enableZoom={false} enableRotate={false}
         maxPolarAngle={Math.PI / 2} minPolarAngle={Math.PI / 2}
   />
         <Computers isMobile={isMobile} />
