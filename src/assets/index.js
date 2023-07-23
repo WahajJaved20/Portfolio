@@ -5,6 +5,7 @@ import cyber from "./cyber.png";
 import securiti from "./securiti.png";
 import fast from "./fast.png";
 import erly from "./erly.png";
+import close from "./close.svg";
 
 import illustrator from "./adobe-illustrator-icon.svg";
 import xd from "./adobe-xd-icon.svg";
@@ -50,6 +51,7 @@ import nft from "./nft.png";
 import sal from "./sal.png";
 import pwned from "./pwned.png";
 import elementals from "./elementals.png";
+import menu from "./menu.svg";
 
 import hackerrank from "./hackerrank.png";
 import leetcode from "./leetcode.svg";
@@ -99,6 +101,8 @@ export {
     nextjs,
     nodejs,
     npm,
+
+    close,
     postman,
     python,
     solidityB,
@@ -110,5 +114,6 @@ export {
     kibana,
     logstash,
     sarcasm,
-    spam
+    spam,
+    menu
 }
