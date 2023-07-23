@@ -11,7 +11,7 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <spotLight position={[-20,50,10]} angle={0.12} penumbra={1}/>
       <primitive object={setup.scene}   scale={isMobile ? 0.7 : 1}
-        position={isMobile ? [-3,-2,-1] : [-3,-2,-1]}/>
+        position={isMobile ? [-1,-2,-1] : [-3,-2,-1]}/>
     </mesh>
   )
 }
@@ -36,7 +36,7 @@ const ComputersCanvas = () => {
       gl={{preserveDrawingBuffer: true}}
     >
     <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls enableZoom={false}
+        <OrbitControls enableZoom={false} enableRotate={isMobile ? false : true}
         maxPolarAngle={Math.PI / 2} minPolarAngle={Math.PI / 2}
   />
         <Computers isMobile={isMobile} />
