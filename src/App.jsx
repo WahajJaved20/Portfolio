@@ -7,6 +7,8 @@ import AboutContent from './components/AboutContent'
 import HeaderText from './components/HeaderText'
 import { slideIn } from './utils/motion'
 import {motion} from 'framer-motion'
+import Certifications from './components/Certifications'
+import CertificationsContent from './components/CertificationsContent'
 const App = () => {
  return(
   <BrowserRouter>
@@ -24,6 +26,8 @@ const App = () => {
       <Tech />
       <Works />
       <WorksContent />
+      <Certifications />
+      <CertificationsContent />
       <Socials />
       <div className='relative z-0'>
         <Contact />
