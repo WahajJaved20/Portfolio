@@ -54,10 +54,10 @@
     medium,
     github2,
     codersCup,
-    peh,
-    introcy,
-    presec,
-    jsBasic,
+    preSecurity,
+    introToCy,
+    practicalEthicalHacking,
+    basicJs,
     problemSolving,
     regex
   } from "../assets";
@@ -537,22 +537,22 @@
   const certifications = [
     {
       name: "Practical Ethical Hacking - The Complete Course",
-      image: peh,
+      image: practicalEthicalHacking,
       issuer: "TCM Security"
     },
     {
       name: "Intro to Cyber Security",
-      image: introcy,
+      image: introToCy,
       issuer: "Try Hack Me"
     },
     {
       name: "Pre-Security",
-      image: presec,
+      image: preSecurity,
       issuer: "Try Hack Me"
     },
     {
       name: "JavaScript (Basic)",
-      image: jsBasic,
+      image: basicJs,
       issuer: "HackerRank"
     },
     {
