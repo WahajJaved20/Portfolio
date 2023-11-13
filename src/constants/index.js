@@ -52,7 +52,14 @@
     hackerrank,
     linkedin,
     medium,
-    github2
+    github2,
+    codersCup,
+    peh,
+    introcy,
+    presec,
+    jsBasic,
+    problemSolving,
+    regex
   } from "../assets";
 
   export const navLinks = [
@@ -307,6 +314,26 @@
   ]
   const projects = [
     {
+      name: "Coders Cup 2023",
+      description: "A platform for registration and information about the event which is the flagship event of ACM NUCES",
+      tags: [
+              {
+                name: "react",
+                color: "blue-text-gradient",
+              },
+              {
+                name: "MongoDB",
+                color: "green-text-gradient",
+              },
+              {
+                name: "Tailwind CSS",
+                color: "pink-text-gradient",
+              },
+            ],
+      image: codersCup,
+      source_code_link: "https://github.com/WahajJaved20/Coders-Cup2023"
+    },
+    {
       name: "Inventory Management System",
       description: "A PERN-stack web application for inventory management allowing users to efficiently manage their inventory, orders and customers",
       tags: [
@@ -507,4 +534,36 @@
       social_name: "@Wahaj Javed"
     }
   ]
-  export {services, experiences, technologies, projects,socials};
+  const certifications = [
+    {
+      name: "Practical Ethical Hacking - The Complete Course",
+      image: peh,
+      issuer: "TCM Security"
+    },
+    {
+      name: "Intro to Cyber Security",
+      image: introcy,
+      issuer: "Try Hack Me"
+    },
+    {
+      name: "Pre-Security",
+      image: presec,
+      issuer: "Try Hack Me"
+    },
+    {
+      name: "JavaScript (Basic)",
+      image: jsBasic,
+      issuer: "HackerRank"
+    },
+    {
+      name: "Problem Solving",
+      image: problemSolving,
+      issuer: "HackerRank"
+    },
+    {
+      name: "Regular Expressions in Python",
+      image: regex,
+      issuer: "DataCamp"
+    }
+  ]
+  export {services, experiences, technologies, projects,socials,certifications};
