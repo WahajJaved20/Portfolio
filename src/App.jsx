@@ -9,6 +9,7 @@ import { slideIn } from './utils/motion'
 import {motion} from 'framer-motion'
 import Certifications from './components/Certifications'
 import CertificationsContent from './components/CertificationsContent'
+import Education from './components/Education'
 const App = () => {
  return(
   <BrowserRouter>
@@ -28,6 +29,7 @@ const App = () => {
       <WorksContent />
       <Certifications />
       <CertificationsContent />
+      <Education />
       <Socials />
       <div className='relative z-0'>
         <Contact />

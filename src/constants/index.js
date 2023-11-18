@@ -567,5 +567,37 @@
       issuer: "DataCamp"
     }
   ]
+
+  const courses = [
+    {
+      name : "Intro to Info. and Comm. Technologies"
+    },
+    {
+      name: "Programming Fundamentals"
+    },
+    {
+      name: "Applied Physics"
+    },
+    {
+      name: "Calculus and Analytical Geometry"
+    },
+    {
+      name: "English Composition and Comprehension"
+    },
+    {
+      name: "Islamic Studies"
+    },
+    {
+      name: "Object Oriented Programming"
+    },
+    {
+      name: "Discrete Structures"
+    },
+    {
+      name: "Linear Algebra"
+    },
+  ]
+  export {services, experiences, technologies, projects,socials,certifications, courses};
+
   const assi = "devops"
-  export {services, experiences, technologies, projects,socials,certifications};
+
