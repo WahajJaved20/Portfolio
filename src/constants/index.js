@@ -566,4 +566,5 @@
       issuer: "DataCamp"
     }
   ]
+  const assi = "devops"
   export {services, experiences, technologies, projects,socials,certifications};
