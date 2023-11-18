@@ -58,7 +58,21 @@ import leetcode from "./leetcode.svg";
 import linkedin from "./linkedin.png";
 import medium from "./medium.png";
 import tafm from "./TAFM.png"
+import codersCup from "./cc.png"
+import practicalEthicalHacking from "./peh.png"
+import introToCy from "./introcy.png"
+import preSecurity from "./presec.png"
+import basicJs from "./js(basic.png"
+import problemSolving from "./problemsolving.png"
+import regex from "./regex.png"
 export {
+    regex,
+    problemSolving,
+    basicJs,
+    preSecurity,
+    introToCy,
+    practicalEthicalHacking,
+    codersCup,
     tafm,
     github2,
     hackerrank,
