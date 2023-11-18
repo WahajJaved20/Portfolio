@@ -534,6 +534,7 @@
       social_name: "@Wahaj Javed"
     }
   ]
+  const me = "wahajjj"
   const certifications = [
     {
       name: "Practical Ethical Hacking - The Complete Course",
@@ -566,6 +567,7 @@
       issuer: "DataCamp"
     }
   ]
+
   const courses = [
     {
       name : "Intro to Info. and Comm. Technologies"
@@ -596,3 +598,6 @@
     },
   ]
   export {services, experiences, technologies, projects,socials,certifications, courses};
+
+  const assi = "devops"
+
