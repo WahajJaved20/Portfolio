@@ -534,6 +534,7 @@
       social_name: "@Wahaj Javed"
     }
   ]
+  const me = "wahaj"
   const certifications = [
     {
       name: "Practical Ethical Hacking - The Complete Course",
