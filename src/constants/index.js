@@ -507,4 +507,5 @@
       social_name: "@Wahaj Javed"
     }
   ]
+  const me = "wahaj"
   export {services, experiences, technologies, projects,socials};
