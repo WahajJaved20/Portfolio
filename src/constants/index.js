@@ -240,6 +240,31 @@
   
   const experiences = [
     {
+      title: "Associate Software Development Engineer I",
+      company_name: "Securiti",
+      icon: securiti,
+      iconBg: "#383E56",
+      date: "June 2024 - Present",
+      points: [
+        "Associate SDE in the Backend Content Classification Team",
+        "Data Command Center Certified",
+        "Privacy Ops Certified",
+        "Java Programming Language as the main language"
+      ],
+    },
+    {
+      title: "Teaching Assistant",
+      company_name: "FAST NUCES",
+      icon: fast,
+      iconBg: "#383E56",
+      date: "Feb 2024 - May 2024",
+      points: [
+        "TA for the course of Computer Networks",
+        "Helped students with their projects",
+        "Fairly graded their assignments and quizzes",
+      ],
+    },
+    {
       title: "Backend Developer - Connectors",
       company_name: "Securiti",
       icon: securiti,
