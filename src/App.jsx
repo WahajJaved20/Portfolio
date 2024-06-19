@@ -1,6 +1,6 @@
 import {BrowserRouter} from 'react-router-dom'
 
-import {About, Contact, Experience, ExperienceContent, Hero, Navbar, Tech,Works,StarsCanvas} from './components'
+import {About, Contact, Experience, ExperienceContent, Hero, Navbar, Tech,Works} from './components'
 import WorksContent from './components/WorksContent'
 import Socials from './components/socials'
 import AboutContent from './components/AboutContent'
@@ -26,10 +26,10 @@ const App = () => {
       <CertificationsContent />
       <Education />
       <Socials />
-      <div className='relative z-0'>
-        <Contact />
-        <StarsCanvas />
-      </div>
+      {/* <div className='relative z-0'>
+        <Contact /> */}
+        {/* <StarsCanvas /> */}
+      {/* </div> */}
       
     </div>
   </BrowserRouter>
